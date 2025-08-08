@@ -2,17 +2,12 @@
 
 ## Project Structure
 ```
-ecommerce/
-├── api/                    # Existing API (port 4001)
-├── backend/                # New Product API (port 5001)
-│   ├── server.js          # Express server with product endpoints
-│   ├── package.json       # Dependencies and scripts
-│   └── package-lock.json  # Lock file
-├── public/                # React public assets
-├── src/                   # React frontend source
-├── .gitignore
-├── package.json           # Main project package.json
-└── README.md              # Original project README
+ecommerce-product-api/
+├── node-modules      # New Product API (port 5001)
+├── server.js          # Express server with product endpoints
+├── package.json       # Dependencies and scripts
+├── package-lock.json  # Lock file
+└── README.md          # All the deliverables in README
 ```
 
 ## Tech Stack
@@ -30,7 +25,7 @@ ecommerce/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/ecommerce-product-api.git
+git clone https://github.com/aurimas13/ecommerce-product-api.git
 cd ecommerce
 ```
 
@@ -42,13 +37,6 @@ npm start
 ```
 
 The API server will start on `http://localhost:5001`
-
-3. **Run the React frontend (optional)**
-```bash
-# In a new terminal, from the ecommerce root directory
-npm install
-npm run client
-```
 
 ## API Documentation
 
