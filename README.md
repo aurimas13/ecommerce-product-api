@@ -26,12 +26,11 @@ ecommerce-product-api/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/aurimas13/ecommerce-product-api.git
-cd ecommerce
+cd ecommerce-product-api
 ```
 
 2. **Install and run the Product API**
 ```bash
-cd backend
 npm install
 npm start
 ```
